@@ -24,12 +24,15 @@ h1 {
     padding-top: 2%;
     color: white;
     font-size: large;
+    font-family: 'Lora', serif;
+    
 }
 
 h2 {
     font-size: medium;
     color: navy;
     border-bottom-style: solid;
+    font-family: 'Lora', serif;
 }
 
 footer {
@@ -40,6 +43,7 @@ footer {
     border-radius: 10px;
     font-size: 12px;
     text-align: center;
+    font-family: 'Mukta', sans-serif;
 
 }
 
