@@ -1,21 +1,24 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    justify-items: center;
-    align-items: center;
-    
+body{
+    text-align: center;
+    background-color: grey;
 }
 
 #one{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin: 100px;
+    float: left;
+    width: 25%;
+    background-color: blue;
+    
 }
 #two{
-    grid-column-start: 2;
-    grid-column-end: 3;
+    float: center;
+    width: 25%;
+    background-color: white;
 }
 #three{
-    grid-column-start: 3;
-    grid-column-end: 4;
+    float: right;
+    width: 25%;
+    background-color: white;
+}
+p{
+    color:blue;
 }
