@@ -16,7 +16,6 @@ main {
     display: block;
 }
 
-
 .menu li {
     display: none;
     flex: 1 1 100%;
@@ -43,18 +42,22 @@ header img {
     align-items: center;
     justify-content: center;
 }
-.text-info{
+
+.text-info {
     text-align: left;
 }
-.images{
+
+.images {
     width: 40%;
     height: auto;
-    
+
 }
-#city{
+
+#city {
     text-align: left;
 }
-#five-day-forecast{
+
+#five-day-forecast {
     text-align: center;
     background-color: darkgray;
 }
@@ -90,8 +93,10 @@ a {
     display: block;
     background-color: lightgreen;
     text-decoration: none;
-    border-color:green;
+    border-color: green;
 }
-a:hover, a:active{
+
+a:hover,
+a:active {
     background-color: orange;
 }

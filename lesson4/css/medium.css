@@ -1,4 +1,4 @@
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 500px) {
 
     main {
         margin: auto;
@@ -33,10 +33,12 @@
         background-color: lightgreen;
 
     }
-    #five-day-forecast{
+
+    #five-day-forecast {
         text-align: left;
     }
-    .five-day-forecast-pictures{
+
+    .five-day-forecast-pictures {
         height: 20px;
         width: 100%;
     }

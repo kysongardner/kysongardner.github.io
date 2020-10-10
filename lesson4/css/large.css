@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
 
     main {
         margin: auto;
@@ -17,26 +17,29 @@
         display: block;
         font-size: 1em;
         margin-top: 20px;
-
     }
 
     .menu li:first-child {
         display: none;
     }
 
-    .menu li {
+    .menu {
         display: grid;
-        grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .menu li {
         list-style: none;
-        padding: 0;
         font-size: 1em;
         background-color: lightgreen;
 
     }
-    #five-day-forecast{
+
+    #five-day-forecast {
         text-align: left;
     }
-    .five-day-forecast-pictures{
+
+    .five-day-forecast-pictures {
         height: 20px;
         width: 100%;
     }
@@ -47,11 +50,6 @@
 
     #city {
         text-align: left;
-    }
-
-
-    .menu_enabler {
-        display: block;
     }
 
     footer {
