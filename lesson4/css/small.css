@@ -1,0 +1,97 @@
+main {
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.menu {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-size: 2em;
+    background-color: lightgreen;
+}
+
+.menu li:first-child {
+    display: block;
+}
+
+
+.menu li {
+    display: none;
+    flex: 1 1 100%;
+}
+
+.menuEdit li {
+    display: block;
+    padding: 0.5em;
+}
+
+header {
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.text-info{
+    text-align: left;
+}
+.images{
+    width: 40%;
+    height: auto;
+    
+}
+#city{
+    text-align: left;
+}
+#five-day-forecast{
+    text-align: center;
+    background-color: darkgray;
+}
+
+.website-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-information {
+    margin: auto;
+    width: 100%;
+    display: block;
+    font-size: 1em;
+    margin-top: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.menu_enabler {
+    display: block;
+}
+
+footer {
+    width: 100%;
+    background-color: lightgreen;
+}
+
+a {
+    display: block;
+    background-color: lightgreen;
+    text-decoration: none;
+    border-color:green;
+}
+a:hover, a:active{
+    background-color: orange;
+}
