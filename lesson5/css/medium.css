@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
 
     main {
         margin: auto;
@@ -19,7 +19,7 @@
 
     header img {
         width: 50px;
-        padding-left: 23em;
+        padding-left: 0em;
     }
 
     a {
@@ -72,14 +72,18 @@
         margin-top: 20px;
     }
 
+    .menu li:first-child {
+        display: none;
+    }
+
     .menu {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         background-color: lightblue;
-        vertical-align: auto;
     }
 
     .menu li {
+        display: block;
         list-style: none;
         font-size: 0.7em;
         background-color: lightblue;
