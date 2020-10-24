@@ -33,21 +33,24 @@
         color: skyblue;
     }
 
-    #top-section {
-        display: float;
+    .active {
+        background-color: lightcoral;
     }
 
-    .first-image{
-        display: block;
-        max-width: 800px;
+    #top-section {
+        position: relative;
+    }
+
+    .first-image img {
+        width: 100%;
     }
 
     #weather-summary-box {
         position: absolute;
-        top: 20em;
-        left: 17em;
+        top: 3em;
+        left: 1em;
         border: solid 5px;
-        padding: 20px;
+        padding: 10px;
         background-color: lightblue;
     }
 
