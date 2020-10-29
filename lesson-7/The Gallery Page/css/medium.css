@@ -7,11 +7,11 @@
     #pictures-for-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 30px;
+        grid-gap: 15px;
     }
 
     img {
-        max-width: 100%;
+        max-width: 70%;
         margin: 0 auto;
     }
 }
