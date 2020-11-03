@@ -1,7 +1,3 @@
-body {
-    font-family: Ubuntu, sans-serif;
-}
-
 table,
 th,
 td,
@@ -20,9 +16,11 @@ th {
     color: white;
     background-color: #628ca6;
     padding: 0.2em;
+    font-family: Ubuntu;
 }
 
 td {
+    font-family: sans-serif;
     text-align: center;
     background-color: #e7f0ed;
     padding: 0.2em;
