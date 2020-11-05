@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
 
@@ -15,8 +13,8 @@
 <body>
     <main>
         <header>
-            <img id="logo-icon" src="images/day-sunny.png">
             <section class="website-info">
+                <img id="logo-icon" src="images/day-sunny.png">
                 <h1>Kyson's Weather Site</h1>
                 <div id="motto">Get your weather information here!</div>
             </section>
@@ -25,14 +23,14 @@
             <ul class="menu">
                 <li><a href="#" onclick="changeMenu()">Menu</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a class="active" href="#">Preston</a></li>
+                <li><a href="#">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
+                <li><a class="active" href="#">Storm Center</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
         </nav>
-        <div>
+        <div id="grid-for-form">
 
             <label>Full Name:</label>
             <input type="text" required minlength="5" pattern="[A-Za-z]">
@@ -51,7 +49,7 @@
             <input type="date" id="storm-date" name="storm-date">
 
             <label for="storm-choices">Storm Type:</label>
-            <input list="storm-choices"> /* Might need more info here */
+            <input list="storm-choices">
 
             <datalist id="storm-choices">
                 <option value="Flash Flood">Flash Flood</option>
@@ -72,6 +70,7 @@
                 <option value="Fish Haven">Fish Haven</option>
             </select>
 
+            <label>Is the storm coming your way?</label>
             <input type="radio" id="yes" name="user-in-danger">
             <label for="user-in-danger">Yes</label><br>
 
@@ -84,7 +83,7 @@
                 <textarea>Add some additional information here!</textarea>
             </label>
             <label>
-                <input type="submit" name="submit-button">
+                <input id="submit-button" type="submit" name="submit-button" onclick="location.href='thanks.html'">
             </label>
 
         </div>
@@ -102,7 +101,6 @@
             <p>&copy; The Weather Site | Attributions | Kyson Gardner | 2020</p>
         </footer>
     </main>
-    <script src="js/windchill.js"></script>
 </body>
 
 </html>
