@@ -41,8 +41,9 @@
 
             <label>Phone Number:</label>
             <input type="tel" id="phone-number" name="phone-number" required>
-
-            <label>Zip Code:</label>
+            <div id="left-center">
+                <label id='to-align'>Zip Code:</label>
+            </div>
             <input type="number" id="zip-code" name="zip-code" required>
 
             <label>Storm Date:</label>
@@ -70,7 +71,9 @@
                 <option value="Fish Haven">Fish Haven</option>
             </select>
 
-            <label>Is the storm coming your way?</label>
+            <div id="storm-coming-label">
+                <label>Is the storm coming your way?</label>
+            </div>
             <input type="radio" id="yes" name="user-in-danger">
             <label for="user-in-danger">Yes</label><br>
 
@@ -80,10 +83,11 @@
             <input type="radio" id="no" name="user-in-danger">
             <label for="user-in-danger">No</label><br>
             <label>
-                <textarea>Add some additional information here!</textarea>
+                <textarea>Add any additional information here</textarea>
             </label>
             <label>
-                <input id="submit-button" type="submit" name="submit-button" onclick="location.href='thanks.html'">
+                <input id="submit-button" type="submit" name="submit-button" onclick="location.href='thanks.html'"
+                    value="Share Information">
             </label>
 
         </div>

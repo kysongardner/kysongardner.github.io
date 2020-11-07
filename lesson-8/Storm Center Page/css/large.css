@@ -35,7 +35,6 @@
         margin-bottom: 1.0em;
     }
 
-
     a {
         margin-top: -1.5em;
         text-decoration: none;
@@ -57,7 +56,7 @@
 
     .menu {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(6, auto);
         background-color: lightblue;
     }
 
@@ -80,6 +79,10 @@
 
     #contact-info {
         grid-column: 2/3;
+    }
+
+    #storm-coming-label {
+        margin: 30px;
     }
 
     #site-info {
