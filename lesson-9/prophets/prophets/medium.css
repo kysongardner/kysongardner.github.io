@@ -6,6 +6,7 @@
     .cards {
         background-color: lavender;
         display: grid;
+        gap: 1em;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -24,6 +25,7 @@
     }
 
     img {
+        display: block;
         margin: 0 auto;
     }
 
