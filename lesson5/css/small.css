@@ -44,6 +44,11 @@
         padding: 0.5em;
     }
 
+    .active {
+        background-color: slateblue;
+        color: skyblue;
+    }
+
     header {
         width: 100%;
         background-color: lightblue;
