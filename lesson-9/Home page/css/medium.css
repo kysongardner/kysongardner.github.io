@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 700px) {
 
     main {
         margin: auto;
@@ -68,19 +68,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-    .town-group:nth-child(odd) img {
-        grid-column: 2;
-    }
-
-    .town-group:nth-child(odd) h1 h5 p {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-
-
-
 
 
     .sun-icon {

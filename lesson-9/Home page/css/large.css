@@ -1,5 +1,4 @@
-@media only screen and (min-width: 800px) {
-
+@media only screen and (min-width: 1000px) {
     main {
         margin: auto;
         max-width: 100%;
@@ -70,10 +69,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         background-color: lightblue;
     }
-    
-
-
-
 
     .sun-icon {
         max-width: 100%;
