@@ -1,0 +1,35 @@
+@media only screen and (min-width: 710px) {
+    body {
+        background-color: lavender;
+    }
+
+    .cards {
+        background-color: lavender;
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h1 {
+        text-align: center;
+        color: darkslateblue;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        color: darkslateblue;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
