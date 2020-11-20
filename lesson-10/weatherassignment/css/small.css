@@ -1,5 +1,6 @@
 @media only screen and (min-width: 425px) {
-/* comment */
+
+    /* comment */
     main {
         margin: auto;
         text-align: center;
@@ -16,6 +17,15 @@
 
     #top-section {
         display: float;
+    }
+
+    th {
+        background-color: skyblue;
+        color: slateblue;
+    }
+
+    td {
+        font: bold;
     }
 
     #weather-summary-box {
@@ -119,7 +129,7 @@
     #five-day-forecast-table {
         margin-left: auto;
         margin-right: auto;
-        background-color: lightyellow;
+        background-color: white;
     }
 
     #five-day-forecast {

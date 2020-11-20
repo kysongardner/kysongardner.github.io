@@ -1,5 +1,6 @@
 @media only screen and (min-width: 800px) {
-/* comment */
+
+    /* comment */
     main {
         margin: auto;
         max-width: 800px;
@@ -15,6 +16,21 @@
         background-color: lightblue;
         padding-bottom: 20px;
         padding-top: 5px;
+    }
+
+    table {
+        border: 1 solid grey;
+    }
+
+    th {
+        background-color: skyblue;
+        color: slateblue;
+        border: 1 solid grey;
+        padding: 1em;
+    }
+
+    td {
+        border: 1 solid grey;
     }
 
     header img {
@@ -34,13 +50,13 @@
     }
 
     #top-section {
-        display: float;
+        position: relative;
     }
 
     #weather-summary-box {
         position: absolute;
-        top: 20em;
-        left: 17em;
+        top: 1em;
+        left: 1em;
         border: solid 5px;
         padding: 20px;
         background-color: lightblue;
@@ -103,8 +119,10 @@
     #five-day-forecast-table {
         margin-left: auto;
         margin-right: auto;
-        background-color: lightyellow;
+        background-color: white;
+        border: 1 solid grey;
     }
+
 
     #five-day-forecast {
         text-align: center;

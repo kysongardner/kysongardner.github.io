@@ -1,5 +1,6 @@
 @media only screen and (min-width: 768px) {
-/* comment */
+
+    /* comment */
     main {
         margin: auto;
         max-width: 800px;
@@ -15,6 +16,11 @@
         background-color: lightblue;
         padding-bottom: 20px;
         padding-top: 5px;
+    }
+
+    th {
+        background-color: skyblue;
+        color: slateblue;
     }
 
     header img {
@@ -103,7 +109,7 @@
     #five-day-forecast-table {
         margin-left: auto;
         margin-right: auto;
-        background-color: lightyellow;
+        background-color: white;
     }
 
     #five-day-forecast {

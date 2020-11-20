@@ -14,6 +14,7 @@ fetch(url)
         let windSpeed = document.createElement('P')
         let windChill = document.createElement('P')
 
+        // Setting weather summary box data
         currentCondition.textContent = "Currently: " + jsObject.weather[0].main
         highTemp.textContent = "High: " + Math.round(jsObject.main.temp_max)
         currentTemp.textContent = "Current Temp: " + Math.round(jsObject.main.temp)
@@ -34,7 +35,7 @@ fetch(url)
             }
         }
         windChillCalculation(t, wS)
-
+        // Adding weather summary box data
         weatherSummarySection.appendChild(currentCondition)
         weatherSummarySection.appendChild(highTemp)
         weatherSummarySection.appendChild(currentTemp)
@@ -53,41 +54,34 @@ fetch(fiveDayUrl)
         console.log(jsObject)
         let daysOfWeather = []
         for (let i = 0; i < jsObject.list.length; i++) {
-
             let correctEntry = "18:00:00"
-
             let goodEntry = jsObject.list[i].dt_txt
-
-            console.log(goodEntry)
-
-            //String(goodEntry).includes(correctEntry)
-
             if (goodEntry.includes(correctEntry)) {
                 daysOfWeather.push(jsObject.list[i])
             }
         }
-
-        console.log(daysOfWeather)
+        // Creating new columns to hold the temperatures
         let dayOne = document.createElement("TD")
         let dayTwo = document.createElement("TD")
         let dayThree = document.createElement("TD")
         let dayFour = document.createElement("TD")
         let dayFive = document.createElement("TD")
 
+        // Setting the temperatures that will go into the 5 day weather summary
         dayOne.textContent = Math.round(daysOfWeather[0].main.temp)
         dayTwo.textContent = Math.round(daysOfWeather[1].main.temp)
         dayThree.textContent = Math.round(daysOfWeather[2].main.temp)
         dayFour.textContent = Math.round(daysOfWeather[3].main.temp)
         dayFive.textContent = Math.round(daysOfWeather[4].main.temp)
 
-        document.getElementById("icon-one").setAttribute('src', daysOfWeather[0].weather.icon)
-        document.getElementById("icon-two").setAttribute('src', daysOfWeather[1].weather.icon)
-        document.getElementById("icon-three").setAttribute('src', daysOfWeather[2].weather.icon)
-        document.getElementById("icon-four").setAttribute('src', daysOfWeather[3].weather.icon)
-        document.getElementById("icon-five").setAttribute('src', daysOfWeather[4].weather.icon)
-        console.log(daysOfWeather[0].weather[0].icon)
+        // Adding icons to 5 day weather summary
+        document.getElementById("icon-one").setAttribute('src', `http://openweathermap.org/img/wn/${daysOfWeather[0].weather[0].icon}@2x.png`)
+        document.getElementById("icon-two").setAttribute('src', `http://openweathermap.org/img/wn/${daysOfWeather[1].weather[0].icon}@2x.png`)
+        document.getElementById("icon-three").setAttribute('src', `http://openweathermap.org/img/wn/${daysOfWeather[2].weather[0].icon}@2x.png`)
+        document.getElementById("icon-four").setAttribute('src', `http://openweathermap.org/img/wn/${daysOfWeather[3].weather[0].icon}@2x.png`)
+        document.getElementById("icon-five").setAttribute('src', `http://openweathermap.org/img/wn/${daysOfWeather[4].weather[0].icon}@2x.png`)
 
-
+        // Adding temperatures to 5 day weather summary
         document.getElementById("day-one").appendChild(dayOne)
         document.getElementById("day-two").appendChild(dayTwo)
         document.getElementById("day-three").appendChild(dayThree)
