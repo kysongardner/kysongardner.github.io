@@ -15,10 +15,10 @@ fetch(url)
         let windChill = document.createElement('P')
 
         currentCondition.textContent = "Currently: " + jsObject.weather[0].main
-        highTemp.textContent = "High: " + jsObject.main.temp_max
-        currentTemp.textContent = "Current Temp: " + jsObject.main.temp
-        humidity.textContent = "Humidity: " + jsObject.main.humidity
-        windSpeed.textContent = "Wind Speed: " + jsObject.wind.speed
+        highTemp.textContent = "High: " + Math.round(jsObject.main.temp_max)
+        currentTemp.textContent = "Current Temp: " + Math.round(jsObject.main.temp)
+        humidity.textContent = "Humidity: " + Math.round(jsObject.main.humidity) + "%"
+        windSpeed.textContent = "Wind Speed: " + Math.round(jsObject.wind.speed) + " mph"
         windChill.textContent = ""
 
         // Wind chill calculation and display
@@ -55,32 +55,42 @@ fetch(fiveDayUrl)
         for (let i = 0; i < jsObject.list.length; i++) {
 
             let correctEntry = "18:00:00"
+
             let goodEntry = jsObject.list[i].dt_txt
 
-            String(goodEntry).includes(correctEntry)
+            console.log(goodEntry)
 
-            if (goodEntry == true){
+            //String(goodEntry).includes(correctEntry)
+
+            if (goodEntry.includes(correctEntry)) {
                 daysOfWeather.push(jsObject.list[i])
-                console.log(goodEntry)
             }
         }
-            
-            let dayOne = document.createElement("TR")
-            let dayTwo = document.createElement("TR")
-            let dayThree = document.createElement("TR")
-            let dayFour = document.createElement("TR")
-            let dayFive = document.createElement("TR")
 
-            dayOne.textContent = jsObject.list.daysOfWeather[0].main.temp
-            dayTwo.textContent = jsObject.list.daysOfWeather[1].main.temp
-            dayThree.textContent = jsObject.list.daysOfWeather[2].main.temp
-            dayFour.textContent = jsObject.list.daysOfWeather[3].main.temp
-            dayFive.textContent = jsObject.list.daysOfWeather[4].main.temp
+        console.log(daysOfWeather)
+        let dayOne = document.createElement("TD")
+        let dayTwo = document.createElement("TD")
+        let dayThree = document.createElement("TD")
+        let dayFour = document.createElement("TD")
+        let dayFive = document.createElement("TD")
 
-            document.getElementById("five-day-summary-degrees").appendChild(dayOne)
-            document.getElementById("five-day-summary-degrees").appendChild(dayTwo)
-            document.getElementById("five-day-summary-degrees").appendChild(dayThree)
-            document.getElementById("five-day-summary-degrees").appendChild(dayFour)
-            document.getElementById("five-day-summary-degrees").appendChild(dayFive)
-        });
-        
+        dayOne.textContent = Math.round(daysOfWeather[0].main.temp)
+        dayTwo.textContent = Math.round(daysOfWeather[1].main.temp)
+        dayThree.textContent = Math.round(daysOfWeather[2].main.temp)
+        dayFour.textContent = Math.round(daysOfWeather[3].main.temp)
+        dayFive.textContent = Math.round(daysOfWeather[4].main.temp)
+
+        document.getElementById("icon-one").setAttribute('src', daysOfWeather[0].weather.icon)
+        document.getElementById("icon-two").setAttribute('src', daysOfWeather[1].weather.icon)
+        document.getElementById("icon-three").setAttribute('src', daysOfWeather[2].weather.icon)
+        document.getElementById("icon-four").setAttribute('src', daysOfWeather[3].weather.icon)
+        document.getElementById("icon-five").setAttribute('src', daysOfWeather[4].weather.icon)
+        console.log(daysOfWeather[0].weather[0].icon)
+
+
+        document.getElementById("day-one").appendChild(dayOne)
+        document.getElementById("day-two").appendChild(dayTwo)
+        document.getElementById("day-three").appendChild(dayThree)
+        document.getElementById("day-four").appendChild(dayFour)
+        document.getElementById("day-five").appendChild(dayFive)
+    });
