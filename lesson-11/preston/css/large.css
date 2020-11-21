@@ -18,6 +18,14 @@
         padding-top: 5px;
     }
 
+    #events {
+        background-color: lightblue;
+        padding: 1em;
+        margin: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+
     table {
         border: 1 solid grey;
     }

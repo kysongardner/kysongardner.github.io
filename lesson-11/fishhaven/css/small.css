@@ -41,6 +41,14 @@
         width: 100%;
     }
 
+    #events {
+        background-color: lightblue;
+        padding: 1em;
+        margin: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+
     .menu li:first-child {
         display: block;
     }

@@ -88,3 +88,30 @@ fetch(fiveDayUrl)
         document.getElementById("day-four").appendChild(dayFour)
         document.getElementById("day-five").appendChild(dayFive)
     });
+
+let eventsURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+fetch(eventsURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+
+        let eventHolder = document.createElement("SECTION")
+        let eventsHeader = document.createElement("H4")
+        let eventOne = document.createElement("p")
+        let eventTwo = document.createElement("p")
+        let eventThree = document.createElement("p")
+        let eventFour = document.createElement("p")
+
+        events.textContent = "Fish Haven Events:"
+        eventOne.textContent = jsObject.towns[1].events[0]
+        eventTwo.textContent = jsObject.towns[1].events[1]
+        eventThree.textContent = jsObject.towns[1].events[2]
+        eventFour.textContent = jsObject.towns[1].events[3]
+
+        eventHolder.appendChild(eventsHeader)
+        eventHolder.appendChild(eventOne)
+        eventHolder.appendChild(eventTwo)
+        eventHolder.appendChild(eventThree)
+        eventHolder.appendChild(eventFour)
+
+        document.getElementById("events").appendChild(eventHolder)
+    })

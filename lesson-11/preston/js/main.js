@@ -88,3 +88,29 @@ fetch(fiveDayUrl)
         document.getElementById("day-four").appendChild(dayFour)
         document.getElementById("day-five").appendChild(dayFive)
     });
+
+let eventsURL = "https://byui-cit230.github.io/weather/data/towndata.json"
+fetch(eventsURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+
+        console.log(jsObject.towns[5].events[0])
+
+        let eventHolder = document.createElement("SECTION")
+        let eventsHeader = document.createElement("H4")
+        let eventOne = document.createElement("p")
+        let eventTwo = document.createElement("p")
+        let eventThree = document.createElement("p")
+
+        events.textContent = "Preston Idaho Events:"
+        eventOne.textContent = jsObject.towns[5].events[0]
+        eventTwo.textContent = jsObject.towns[5].events[1]
+        eventThree.textContent = jsObject.towns[5].events[2]
+
+        eventHolder.appendChild(eventsHeader)
+        eventHolder.appendChild(eventOne)
+        eventHolder.appendChild(eventTwo)
+        eventHolder.appendChild(eventThree)
+
+        document.getElementById("events").appendChild(eventHolder)
+    })

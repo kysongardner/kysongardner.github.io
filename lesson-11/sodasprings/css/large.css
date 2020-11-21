@@ -66,6 +66,14 @@
         width: 100%;
     }
 
+    #events {
+        background-color: lightblue;
+        padding: 1em;
+        margin: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+
     .article-section {
         margin-top: 2em;
         width: 100% - padding;
