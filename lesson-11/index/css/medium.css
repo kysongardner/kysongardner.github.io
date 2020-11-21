@@ -41,6 +41,11 @@
         color: skyblue;
     }
 
+    .active {
+        background-color: slateblue;
+        color: skyblue;
+    }
+
     #top-section {
         display: float;
     }

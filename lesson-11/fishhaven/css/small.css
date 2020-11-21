@@ -15,10 +15,6 @@
         background-color: lightblue;
     }
 
-    #top-section {
-        display: float;
-    }
-
     th {
         background-color: skyblue;
         color: slateblue;
@@ -28,10 +24,14 @@
         font: bold;
     }
 
+    #top-section {
+        position: relative;
+    }
+
     #weather-summary-box {
         position: absolute;
-        top: 22em;
-        left: 2em;
+        top: 1em;
+        left: 1em;
         border: solid 5px;
         padding: 20px;
         background-color: lightblue;

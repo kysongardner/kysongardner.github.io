@@ -45,13 +45,13 @@
     }
 
     #top-section {
-        display: float;
+        position: relative;
     }
 
     #weather-summary-box {
         position: absolute;
-        top: 20em;
-        left: 17em;
+        top: 1em;
+        left: 1em;
         border: solid 5px;
         padding: 20px;
         background-color: lightblue;

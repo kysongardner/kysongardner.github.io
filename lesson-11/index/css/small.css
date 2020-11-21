@@ -25,6 +25,11 @@
         padding-top: 0.1em;
     }
 
+    .active {
+        background-color: slateblue;
+        color: skyblue;
+    }
+
     #top-section {
         display: float;
     }

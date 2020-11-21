@@ -36,6 +36,7 @@
     }
 
     a {
+        background-color: lightblue;
         margin-top: -1.5em;
         text-decoration: none;
 
@@ -46,9 +47,13 @@
         color: skyblue;
     }
 
+    #top-section {
+        position: relative;
+    }
+
     .active {
         background-color: slateblue;
-        color:skyblue;
+        color: skyblue;
     }
 
     .menu li:first-child {
@@ -66,6 +71,7 @@
         list-style: none;
         font-size: 1.3em;
         background-color: lightblue;
+
     }
 
     .sun-icon {
