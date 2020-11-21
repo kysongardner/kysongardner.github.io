@@ -49,7 +49,8 @@
     }
 
     .active {
-        background-color: lightcoral;
+        background-color: slateblue;
+        color:skyblue;
     }
 
     header {

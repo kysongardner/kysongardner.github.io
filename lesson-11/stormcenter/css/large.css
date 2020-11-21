@@ -32,7 +32,7 @@
     }
 
     input {
-        margin-bottom: 1.0em;
+        margin-bottom: 1em;
     }
 
     a {
@@ -47,7 +47,8 @@
     }
 
     .active {
-        background-color: lightcoral;
+        background-color: slateblue;
+        color:skyblue;
     }
 
     .menu li:first-child {
@@ -56,7 +57,7 @@
 
     .menu {
         display: grid;
-        grid-template-columns: repeat(6, auto);
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         background-color: lightblue;
     }
 
@@ -64,6 +65,7 @@
         display: block;
         list-style: none;
         font-size: 1.3em;
+        background-color: lightblue;
     }
 
     .sun-icon {
