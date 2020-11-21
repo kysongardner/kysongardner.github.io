@@ -2,7 +2,7 @@ function changeMenu() {
     document.getElementsByClassName("menu")[0].classList.toggle("menuEdit")
 }
 
-const url = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=da3b68c843f01e78d91a043033def649&units=imperial"
+const url = "https://api.openweathermap.org/data/2.5/weather?id=5593814&appid=da3b68c843f01e78d91a043033def649&units=imperial"
 fetch(url)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -47,7 +47,7 @@ fetch(url)
     })
 
 // Loading information into the 5 day forecast
-let fiveDayUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=da3b68c843f01e78d91a043033def649&units=imperial"
+let fiveDayUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5593814&appid=da3b68c843f01e78d91a043033def649&units=imperial"
 fetch(fiveDayUrl)
     .then((response) => response.json())
     .then((jsObject) => {
