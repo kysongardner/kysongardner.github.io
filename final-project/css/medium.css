@@ -1,0 +1,28 @@
+@media only screen and (min-width: 599px) {
+    body {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0.2em;
+    }
+
+    #header-image {
+        grid-column: 1/2;
+        max-width: 10em;
+        justify-content: center;
+    }
+
+    #header-title {
+        grid-column: 2/3;
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    img {
+        margin: 0 auto;
+    }
+}
