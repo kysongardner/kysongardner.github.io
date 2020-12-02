@@ -16,7 +16,7 @@
     }
 
     #top-section {
-        position: relative;
+        display: block;
     }
 
     th {
