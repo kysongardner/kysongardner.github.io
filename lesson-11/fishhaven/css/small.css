@@ -25,11 +25,11 @@
     }
 
     #top-section {
-        position: relative;
+        display: block;
     }
 
     #weather-summary-box {
-        position: absolute;
+        display: block;
         top: 1em;
         left: 1em;
         border: solid 5px;
