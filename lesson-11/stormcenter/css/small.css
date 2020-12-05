@@ -93,6 +93,12 @@
 
     }
 
+    #grid-for-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
     #city {
         text-align: center;
     }
