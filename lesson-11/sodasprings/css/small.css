@@ -98,6 +98,8 @@
     }
 
     #five-day-forecast {
+        margin-left: auto;
+        margin-right: auto;
         max-width: 400px;
         text-align: center;
         background-color: darkgray;

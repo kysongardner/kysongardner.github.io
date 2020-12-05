@@ -36,7 +36,6 @@
 
     a {
         background-color: lightblue;
-        margin-top: -1.5em;
         text-decoration: none;
     }
 
@@ -67,7 +66,7 @@
     .menu li {
         display: block;
         list-style: none;
-        font-size: 1.3em;
+        font-size: 0.7em;
         background-color: lightblue;
     }
 

@@ -53,6 +53,7 @@
     }
 
     .menu li {
+        font-size: 0.7em;
         display: none;
         flex: 1 1 100%;
     }
