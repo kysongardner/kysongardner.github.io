@@ -37,6 +37,7 @@
     a {
         background-color: lightblue;
         text-decoration: none;
+        margin-top: -1.5em;
     }
 
     a:hover {
