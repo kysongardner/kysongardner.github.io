@@ -23,8 +23,8 @@ fetch(url)
         windChill.textContent = ""
 
         // Wind chill calculation and display
-        var t = currentTemp
-        var wS = windSpeed
+        var t = jsObject.main.temp
+        var wS = jsObject.wind.speed
 
         function windChillCalculation(t, wS) {
             if (t < 50 && wS > 3) {
