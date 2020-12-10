@@ -23,10 +23,18 @@
         justify-content: center;
         vertical-align: middle;
     }
+    .navigation-bar li:first-child {
+        display: none;
+    }
 
-    .navigation-bar {
+    .navigation-bar{
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
+        background-color: purple;
+    }
+    .navigation-bar li{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
         background-color: purple;
     }
 
@@ -79,8 +87,6 @@
         text-align: center;
         font-size: 1em;
     }
-
-    #temple-lights {}
 
     #call-to-action {
         background-color: blue;

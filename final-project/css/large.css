@@ -27,9 +27,18 @@
         vertical-align: middle;
     }
 
-    .navigation-bar {
+    .navigation-bar li:first-child {
+        display: none;
+    }
+
+    .navigation-bar{
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
+        background-color: purple;
+    }
+    .navigation-bar{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
         background-color: purple;
     }
 
