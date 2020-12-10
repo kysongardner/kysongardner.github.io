@@ -4,7 +4,7 @@
         margin-left: auto;
         margin-right: auto;
         background-color: lightcyan;
-        
+
     }
 
     header {
@@ -16,7 +16,8 @@
     #header-image {
         margin-left: 10em;
     }
-    #header-title{
+
+    #header-title {
         margin-left: 1em;
     }
 
@@ -26,7 +27,7 @@
         vertical-align: middle;
     }
 
-    #navigation-bar {
+    .navigation-bar {
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         background-color: purple;
@@ -46,7 +47,8 @@
         background-color: lightpink;
         color: purple;
     }
-    a:visited{
+
+    a:visited {
         color: lightskyblue;
     }
 
@@ -54,7 +56,8 @@
         color: purple;
         background-color: lightpink;
     }
-    #header-one{
+
+    #header-one {
         text-align: center;
         margin-bottom: -1em;
     }
@@ -71,17 +74,20 @@
 
     #activity-two {
         grid-column: 2/3;
-        
+
     }
-    #activity-three{
+
+    #activity-three {
         grid-column: 1/4;
         margin-left: 5em;
     }
+
     div p {
         text-align: center;
         font-size: 1em;
     }
-    #temple-lights{
+
+    #temple-lights {
         margin-left: -5em;
     }
 
