@@ -14,7 +14,7 @@
         gap: 0.2em;
     }
 
-    #header-image {
+    .header-image {
         grid-column: 1/2;
         max-width: 10em;
         justify-content: center;
@@ -110,4 +110,33 @@
         background-color: lightgrey;
         text-align: center;
     }
+
+
+    /* Temples page */
+    /* Temples page */
+    /* Temples page */
+    /* Temples page */
+    #temple-main {
+        display: block;
+    }
+
+    .temple-container {
+        display: block;
+    }
+
+    .temple-container img {
+        max-width: 25em;
+        padding-top: 3em;
+    }
+
+    .temple-details-header {
+        text-align: center;
+    }
+
+    /* Reservation Page */
+
+
+
+
+    /* Services Page */
 }

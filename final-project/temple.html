@@ -9,25 +9,47 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-
-    <div>
-        <div>
-            <img src="images/kansas_city_temple_lds.jpg">
+    <header>
+        <img class="header-image" src="images/temple-lights.jpg" alt="Christus and Christmas lights">
+        <h1 id="header-title"><strong>Temple Inn & Suites</strong></h1>
+    </header>
+    <nav>
+        <ul class="navigation-bar">
+            <li> <a href="#" onclick="editMenu()">Menu</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="temple.html" class="active">Temple</a></li>
+            <li> <a href="reservation.html">Reservation</a></li>
+            <li> <a href="services.html">Services</a></li>
+            <li> <a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main id="temple-main">
+        <div class="temple-container">
+            <div>
+                <img id="kansas-temple" alt="kansas temple" src="images/kansas_city_temple_lds.jpg">
+                <h2 class="temple-details-header">Kansas City Temple Details:</h2>
+            </div>
+            <div>
+                <img id="payson-temple" alt="payson temple" src="images/payson_utah_temple.jpg">
+                <h2 class="temple-details-header">Payson Temple Details:</h2>
+            </div>
+            <div>
+                <img id="salt-lake-temple" alt="salt lake temple" src="images/salt_lake_temple_lds.jpg">
+                <h2 class="temple-details-header">Salt Lake Temple Details:</h2>
+            </div>
+            <div>
+                <img id="phoenix-temple" alt="phoenix temple" src="images/phoenix_arizona_temple_exterior.jpg">
+                <h2 class="temple-details-header">Phoenix Temple Details:</h2>
+            </div>
         </div>
-        <div>
-            <img src="images/payson_utah_temple.jpg">
-        </div>
-        <div>
-            <img src="images/salt_lake_temple_lds.jpg">
-        </div>
-        <div>
-            <img src="images/phoenix_arizona_temple_exterior.jpg">
-        </div>
-    </div>
-
+    </main>
+    <footer>
+        <p>&copy; | Temple Inn & Suites | 2020 | Kyson Gardner | BYU-Idaho</p>
+    </footer>
 </body>
 
 </html>

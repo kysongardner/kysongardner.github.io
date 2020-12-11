@@ -13,7 +13,7 @@
         margin: 0 auto;
     }
 
-    #header-image {
+    .header-image {
         margin-left: 7em;
     }
 
@@ -23,16 +23,18 @@
         justify-content: center;
         vertical-align: middle;
     }
+
     .navigation-bar li:first-child {
         display: none;
     }
 
-    .navigation-bar{
+    .navigation-bar {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         background-color: purple;
     }
-    .navigation-bar li{
+
+    .navigation-bar li {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         background-color: purple;
@@ -100,4 +102,31 @@
         background-color: lightgrey;
         text-align: center;
     }
+
+
+    /* Temples page */
+    /* Temples page */
+    /* Temples page */
+    /* Temples page */
+    .temple-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .temple-container img {
+        max-width: 15em;
+        text-align: center;
+    }
+
+    .temple-details-header {
+        text-align: center;
+    }
+
+    /* Reservation Page */
+
+
+
+
+    /* Services Page */
 }

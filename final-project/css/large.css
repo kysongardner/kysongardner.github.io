@@ -13,7 +13,7 @@
         margin: 0 auto;
     }
 
-    #header-image {
+    .header-image {
         margin-left: 10em;
     }
 
@@ -31,12 +31,13 @@
         display: none;
     }
 
-    .navigation-bar{
+    .navigation-bar {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         background-color: purple;
     }
-    .navigation-bar{
+
+    .navigation-bar {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         background-color: purple;
@@ -88,7 +89,7 @@
 
     #activity-three {
         grid-column: 1/4;
-        margin-left: 5em;
+        margin-left: 1em;
     }
 
     div p {
@@ -112,4 +113,53 @@
         background-color: lightgrey;
         text-align: center;
     }
+
+
+    /* Temples page */
+    /* Temples page */
+    /* Temples page */
+    /* Temples page */
+
+    .temple-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .temple-container img {
+        max-width: 24.5em;
+        text-align: center;
+    }
+
+    .temple-details-header {
+        text-align: center;
+    }
+
+    /* Reservation Page */
+
+
+
+
+    /* Services Page */
+    #specialized-services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .services-amenities-header {
+        grid-column: 1/2;
+        text-align: center;
+    }
+
+    #amenities {
+        grid-column: 2/3;
+        border-left: 0.5em solid purple;
+    }
+
+    .pictures-for-services-page {
+        max-width: 20em;
+        margin-left: 3em;
+    }
+
 }
