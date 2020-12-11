@@ -162,4 +162,62 @@
         margin-left: 3em;
     }
 
+    .potential-bookings {
+        text-align: center;
+        padding-top: 5em;
+    }
+
+    a .services-link {
+        background-color: none;
+    }
+
+    #reception-picture {
+        max-width: 15em;
+    }
+
+    #suite-picture {
+        max-width: 15em;
+        padding-left: 2em;
+    }
+
+    /* Suites Page */
+    #suites{
+        text-align: center;
+    }
+    #suites-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+
+    #suite1 {
+        max-width: 20em;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #suite1-header {
+        text-align: center;
+    }
+
+    #suite2 {
+        max-width: 20em;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #suite2-header {
+        text-align: center;
+    }
+
+    #suite3 {
+        max-width: 20em;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    #suite3-header {
+        text-align: center;
+    }
+
 }
