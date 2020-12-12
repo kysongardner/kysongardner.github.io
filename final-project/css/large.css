@@ -53,9 +53,12 @@
         font-size: 1.7em;
     }
 
-    a:hover {
+    nav a:hover {
         background-color: lightpink;
         color: purple;
+    }
+    a:hover{
+        background-color: none;
     }
 
     a:visited {
@@ -164,7 +167,7 @@
 
     .potential-bookings {
         text-align: center;
-        padding-top: 5em;
+        padding-top: 1em;
     }
 
     a .services-link {
@@ -177,7 +180,21 @@
 
     #suite-picture {
         max-width: 15em;
-        padding-left: 2em;
+    }
+    .specialized-amenities-items{
+        text-align: left;
+    }
+    #amenities{
+        text-align: center;
+    }
+    #reception-picture {
+        max-width: 15em;
+        padding-left: 1em;
+    }
+
+    #suite-picture {
+        max-width: 15em;
+        padding-left: 1em;
     }
 
     /* Suites Page */

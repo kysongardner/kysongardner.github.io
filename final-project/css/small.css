@@ -55,9 +55,13 @@
         font-size: 1.7em;
     }
 
-    a:hover {
+    nav a:hover {
         background-color: lightpink;
         color: purple;
+    }
+
+    a:hover {
+        background-color: none;
     }
 
     a:visited {
@@ -139,4 +143,64 @@
 
 
     /* Services Page */
+    .pictures-for-services-page {
+        max-width: 20em;
+        margin-left: 2em;
+    }
+    .potential-bookings{
+        margin-top: 3em;
+        text-align: center;
+    }
+
+    #reception-picture {
+        max-width: 15em;
+    }
+
+    #suite-picture {
+        max-width: 15em;
+    }
+    .specialized-amenities-items{
+        text-align: center;
+        margin-right: 2em;
+    }
+    #specialized-services{
+        text-align: center;
+    }
+    #amenities{
+        text-align: center;
+    }
+
+    /* Suites Page */
+
+    #suites {
+        text-align: center;
+    }
+
+    #suites-container {
+        display: block;
+    }
+
+    #suite1 {
+        max-width: 20em;
+    }
+
+    #suite1-header {
+        text-align: center;
+    }
+
+    #suite2 {
+        max-width: 20em;
+    }
+
+    #suite2-header {
+        text-align: center;
+    }
+
+    #suite3 {
+        max-width: 20em;
+    }
+
+    #suite3-header {
+        text-align: center;
+    }
 }

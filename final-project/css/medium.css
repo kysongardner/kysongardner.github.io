@@ -50,9 +50,12 @@
         font-size: 1.7em;
     }
 
-    a:hover {
+    nav a:hover {
         background-color: lightpink;
         color: purple;
+    }
+    a:hover{
+        background-color: none;
     }
 
     a:visited {
@@ -126,7 +129,91 @@
     /* Reservation Page */
 
 
-
-
     /* Services Page */
+    #specialized-services {
+        display: block;
+    }
+
+    .services-amenities-header {
+        text-align: center;
+        padding-top: 2em;
+    }
+
+    .pictures-for-services-page {
+        max-width: 20em;
+        margin-left: 15em;
+    }
+
+    .potential-bookings {
+        text-align: center;
+        padding-top: 2em;
+    }
+
+    a .services-link {
+        background-color: none;
+    }
+    .specialized-amenities-items{
+        text-align: center;
+        margin-right: 2em;
+    }
+
+    #reception-picture {
+        max-width: 15em;
+        padding-left: 7em;
+    }
+
+    #suite-picture {
+        max-width: 15em;
+        padding-left: 7em;
+    }
+
+    /* Suites Page */
+    .pictures-for-services-page {
+        max-width: 20em;
+    }
+    .potential-bookings{
+        margin-top: 3em;
+        text-align: center;
+    }
+
+    #reception-picture {
+        max-width: 15em;
+    }
+
+    #suite-picture {
+        max-width: 15em;
+    }
+
+    #suites {
+        text-align: center;
+    }
+
+    #suites-container {
+        display: block;
+    }
+
+    #suite1 {
+        max-width: 20em;
+    }
+
+    #suite1-header {
+        text-align: center;
+    }
+
+    #suite2 {
+        max-width: 20em;
+    }
+
+    #suite2-header {
+        text-align: center;
+    }
+
+    #suite3 {
+        max-width: 20em;
+    }
+
+    #suite3-header {
+        text-align: center;
+    }
+
 }
