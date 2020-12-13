@@ -147,7 +147,8 @@
         max-width: 20em;
         margin-left: 2em;
     }
-    .potential-bookings{
+
+    .potential-bookings {
         margin-top: 3em;
         text-align: center;
     }
@@ -159,14 +160,17 @@
     #suite-picture {
         max-width: 15em;
     }
-    .specialized-amenities-items{
+
+    .specialized-amenities-items {
         text-align: center;
         margin-right: 2em;
     }
-    #specialized-services{
+
+    #specialized-services {
         text-align: center;
     }
-    #amenities{
+
+    #amenities {
         text-align: center;
     }
 
@@ -182,51 +186,64 @@
 
     #suite1 {
         max-width: 20em;
+        margin-left: 2em;
     }
 
     #suite1-header {
         text-align: center;
+        margin-top: 2em;
     }
 
     #suite2 {
         max-width: 20em;
+        margin-left: 2em;
     }
 
     #suite2-header {
         text-align: center;
+        margin-top: 2em;
     }
 
     #suite3 {
         max-width: 20em;
+        margin-left: 2em;
     }
 
     #suite3-header {
         text-align: center;
+        margin-top: 2em;
     }
+
     /* Reception Page */
-    #reception-page-container{
+    #reception-page-container {
         display: block;
     }
-    #wedding-header{
+
+    #wedding-header {
         text-align: center;
     }
-    .wedding-list{
-        text-align: center;
-        margin-right: 2em;
-        padding: 0.2em;
-    }
-    #food-header{
-        text-align: center;
-    }
-    .food-list{
+
+    .wedding-list {
         text-align: center;
         margin-right: 2em;
         padding: 0.2em;
     }
-    #wedding-header{
+
+    #food-header {
         text-align: center;
     }
-    #reception-header{
+
+    .food-list {
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.2em;
+    }
+
+    #wedding-header {
+        text-align: center;
+    }
+
+    #reception-header {
         text-align: center;
     }
 }

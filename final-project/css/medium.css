@@ -107,10 +107,6 @@
         text-align: center;
     }
 
-
-    /* Temples page */
-    /* Temples page */
-    /* Temples page */
     /* Temples page */
     .temple-container {
         display: grid;
@@ -170,23 +166,6 @@
     }
 
     /* Suites Page */
-    .pictures-for-services-page {
-        max-width: 20em;
-    }
-
-    .potential-bookings {
-        margin-top: 3em;
-        text-align: center;
-    }
-
-    #reception-picture {
-        max-width: 15em;
-    }
-
-    #suite-picture {
-        max-width: 15em;
-    }
-
     #suites {
         text-align: center;
     }
@@ -196,27 +175,39 @@
     }
 
     #suite1 {
+        display: block;
         max-width: 20em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #suite1-header {
         text-align: center;
+        margin-top: 2em;
     }
 
     #suite2 {
+        display: block;
         max-width: 20em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #suite2-header {
         text-align: center;
+        margin-top: 2em;
     }
 
     #suite3 {
+        display: block;
         max-width: 20em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #suite3-header {
         text-align: center;
+        margin-top: 2em;
     }
 
     /* Reception Page */
