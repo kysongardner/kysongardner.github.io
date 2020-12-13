@@ -31,13 +31,13 @@
 
     .navigation-bar li:first-child {
         display: block;
-        background-color: purple;
+        background-color: #1FCFDE;
     }
 
     .navigation-bar li {
         display: none;
         text-align: center;
-        background-color: purple;
+        background-color: #1FCFDE;
     }
 
     .shrinkMenu li {
@@ -51,13 +51,13 @@
 
     a {
         text-decoration: none;
-        color: lightpink;
+        color: #DE1FCF;
         font-size: 1.7em;
     }
 
     nav a:hover {
-        background-color: lightpink;
-        color: purple;
+        background-color: #CFDE1F;
+        color: #DE1FCF;
     }
 
     a:hover {
@@ -65,12 +65,12 @@
     }
 
     a:visited {
-        color: lightskyblue;
+        color: #2E1FDE;
     }
 
     .active {
-        color: purple;
-        background-color: lightpink;
+        color: #DE1FCF;
+        background-color: #CFDE1F;
     }
 
     #header-one {
@@ -111,7 +111,7 @@
     }
 
     footer {
-        background-color: lightgrey;
+        background-color: #1FCFDE;
         text-align: center;
     }
 
