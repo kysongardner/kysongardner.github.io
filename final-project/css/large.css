@@ -57,7 +57,8 @@
         background-color: lightpink;
         color: purple;
     }
-    a:hover{
+
+    a:hover {
         background-color: none;
     }
 
@@ -181,12 +182,15 @@
     #suite-picture {
         max-width: 15em;
     }
-    .specialized-amenities-items{
+
+    .specialized-amenities-items {
         text-align: left;
     }
-    #amenities{
+
+    #amenities {
         text-align: center;
     }
+
     #reception-picture {
         max-width: 15em;
         padding-left: 1em;
@@ -198,9 +202,10 @@
     }
 
     /* Suites Page */
-    #suites{
+    #suites {
         text-align: center;
     }
+
     #suites-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -236,5 +241,50 @@
     #suite3-header {
         text-align: center;
     }
+
+    /* Reception Page */
+    #reception-header {
+        text-align: center;
+    }
+
+    #reception-page-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #wedding-header {
+        text-align: center;
+        grid-column: 1/2;
+    }
+
+    #wedding-container {
+        grid-column: 1/2;
+    }
+
+    .wedding-list {
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.2em;
+    }
+
+    #food-header {
+        text-align: center;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #food-container {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .food-list {
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.2em;
+    }
+
+
+
 
 }

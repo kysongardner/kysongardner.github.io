@@ -203,4 +203,30 @@
     #suite3-header {
         text-align: center;
     }
+    /* Reception Page */
+    #reception-page-container{
+        display: block;
+    }
+    #wedding-header{
+        text-align: center;
+    }
+    .wedding-list{
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.2em;
+    }
+    #food-header{
+        text-align: center;
+    }
+    .food-list{
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.2em;
+    }
+    #wedding-header{
+        text-align: center;
+    }
+    #reception-header{
+        text-align: center;
+    }
 }
