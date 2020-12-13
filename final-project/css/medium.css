@@ -119,7 +119,17 @@
     }
 
     /* Reservation Page */
+    #reservation-form {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
 
+    label,
+    input,
+    select {
+        margin: 5px;
+    }
 
     /* Services Page */
     #specialized-services {

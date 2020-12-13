@@ -29,8 +29,8 @@
     </nav>
     <main>
         <div id="reservation-form">
-            <h2>Book A Reservation Today!!</h2>
             <form>
+                <h2>Book A Reservation Today!!</h2>
                 <label for="location">Location:</label><br>
                 <select id="location" name="location">
                     <option value="kansas-city">Kansas City, KS</option>
@@ -38,24 +38,24 @@
                     <option value="salt-lake">Salt Lake City, UT</option>
                     <option value="phoenix">Phoenix, Arizona</option>
                 </select>
-
+                <br>
                 <label for="date">Date:</label><br>
                 <input type="date" name="date"><br>
 
-                <label for="number-of-rooms">Number of Rooms:</label><br>
+                <label for="number-of-rooms">Number of Rooms:</label>
                 <select id="number-of-rooms" name="number-of-rooms">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                 </select>
-
-                <label for="type-of-room">Type of Room:</label><br>
+                <br>
+                <label for="type-of-room">Type of Room:</label>
                 <select id="type-of-room" name="type-of-room">
                     <option value="Suite1">Suite 1</option>
                     <option value="Suite2">Suite 2</option>
                     <option value="Suite3">Suite 3</option>
                 </select>
-
+                <br>
                 <label for="full-name">Full Name:</label><br>
                 <input type="text" name="full-name"><br>
 
@@ -70,6 +70,8 @@
 
                 <label for="comments">Special Accomodations/Comments:</label><br>
                 <textarea id="comments" rows="10" cols="50"></textarea><br>
+
+                <input type="button" value="Book Suite!" onclick="alert('Booking Completed!')" name="submit-booking">
             </form>
         </div>
     </main>
