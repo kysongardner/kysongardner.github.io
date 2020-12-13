@@ -102,11 +102,6 @@
         margin-top: -3em;
     }
 
-    footer {
-        background-color: #1FCFDE;
-        text-align: center;
-    }
-
     /* Temples page */
     .temple-container {
         display: grid;
@@ -240,6 +235,17 @@
     }
 
     #reception-header {
+        text-align: center;
+    }
+
+    /* Contact Us Page */
+    #contact-us {
+        display: block;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #1FCFDE;
         text-align: center;
     }
 

@@ -3,7 +3,7 @@
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
-        background-color: white;
+        background-color: lightcyan;
 
     }
 
@@ -113,15 +113,6 @@
         margin-top: -3em;
     }
 
-    footer {
-        background-color: #1FCFDE;
-        text-align: center;
-    }
-
-
-    /* Temples page */
-    /* Temples page */
-    /* Temples page */
     /* Temples page */
 
     .temple-container {
@@ -290,7 +281,14 @@
         padding: 0.2em;
     }
 
+    /* Contact Us Page */
+    #contact-us {
+        display: block;
+        text-align: center;
+    }
 
-
-
+    footer {
+        background-color: #1FCFDE;
+        text-align: center;
+    }
 }
