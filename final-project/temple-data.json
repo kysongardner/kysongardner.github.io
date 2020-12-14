@@ -1,5 +1,39 @@
-var temples = {
-    "name":"Kansas City",
-    "phase": "2"
-    
-}
+{
+"temples" : [
+    {
+    "name": "Kansas City, KS",
+    "phase": "2",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "6AM - 9PM Tuesday - Saturday",
+    "iniatories": "6AM - 10PM Tuesday - Saturday",
+    "endowments": "Every hour on the hour 6 - 9PM",
+    "sealings": "8AM - 10PM Tuesday - Saturday (Please make an appointment)"
+    },
+    {
+    "name": "Payson, UT",
+    "phase": "2",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "5AM - 10PM Tuesday - Saturday",
+    "iniatories": "6AM - 9PM Tuesday - Saturday",
+    "endowments": "6AM - 9PM Every 30 Minutes",
+    "sealings": "8AM - 10PM Tuesday - Saturday (Please make an appointment)"
+    },
+    {
+    "name": "Salt Lake City, UT",
+    "phase": "Currently being restored",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "5AM - 10PM Tuesday - Saturday",
+    "iniatories": "5AM - 10PM Tuesday - Saturday",
+    "endowments": "5AM - 10PM Every 20 Minutes",
+    "sealings": "6AM - 10PM Tuesday - Saturday (Please make an appointment)"
+    },
+    {
+    "name": "Phoenix, AZ",
+    "phase": "2",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "7AM - 9PM Tuesday - Saturday",
+    "iniatories": "6AM - 9PM Tuesday - Saturday",
+    "endowments": "6AM - 9PM Every 20 Minutes",
+    "sealings": "8AM - 9PM Tuesday - Saturday (Please make an appointment)"
+    }
+]}
