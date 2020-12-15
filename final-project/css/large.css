@@ -101,16 +101,26 @@
         font-size: 1em;
     }
 
-    #temple-lights {
-        margin-left: -5em;
-    }
-
     #call-to-action {
         background-color: blue;
         text-align: center;
         font-size: 2em;
         color: white;
         margin-top: -3em;
+    }
+
+    #payson-temple-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #payson-temple-container img {
+        max-width: 50em;
+        grid-column: 1/-1;
+    }
+
+    #payson-temple-summary {
+        text-align: center;
     }
 
     /* Temples page */
@@ -297,6 +307,12 @@
 
     footer {
         background-color: #1FCFDE;
+        text-align: center;
+    }
+
+    /* Resources Page */
+    #resources-header h1,
+    p {
         text-align: center;
     }
 }

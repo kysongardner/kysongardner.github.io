@@ -110,6 +110,20 @@
         margin-top: -3em;
     }
 
+    #payson-temple-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #payson-temple-container img {
+        max-width: 25em;
+        grid-column: 1/-1;
+    }
+
+    #payson-temple-summary {
+        text-align: center;
+    }
+
     /* Temples page */
     #temple-main {
         display: block;
@@ -257,4 +271,9 @@
         text-align: center;
     }
 
+    /* Resources Page */
+    #resources-header h1,
+    p {
+        text-align: center;
+    }
 }
