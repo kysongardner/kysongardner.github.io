@@ -46,7 +46,7 @@
 
     a {
         text-decoration: none;
-        color: #DE1FCF;
+        color: #2E1FDE;
         font-size: 1.7em;
     }
 
@@ -64,7 +64,7 @@
     }
 
     .active {
-        color: #DE1FCF;
+        color: #2E1FDE;
         background-color: #CFDE1F;
     }
 
