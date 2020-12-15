@@ -1,4 +1,4 @@
-@media only screen and (min-width: 599px) {
+@media only screen and (min-width: 700px) {
     body {
         max-width: 800px;
         margin-left: auto;
@@ -97,19 +97,27 @@
     #call-to-action {
         background-color: blue;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
         color: white;
         margin-top: -3em;
     }
 
+    #index-email {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
     #payson-temple-container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
 
     #payson-temple-container img {
-        max-width: 40em;
-        grid-column: 1/-1;
+        max-width: 30em;
+        grid-column: 1/2;
+        gap: 1em;
+        margin: 0 auto;
     }
 
     #payson-temple-summary {
@@ -157,7 +165,6 @@
 
     .pictures-for-services-page {
         max-width: 20em;
-        margin-left: 15em;
     }
 
     .potential-bookings {
@@ -171,17 +178,14 @@
 
     .specialized-amenities-items {
         text-align: center;
-        margin-right: 2em;
     }
 
     #reception-picture {
         max-width: 15em;
-        padding-left: 7em;
     }
 
     #suite-picture {
         max-width: 15em;
-        padding-left: 7em;
     }
 
     /* Suites Page */
@@ -202,7 +206,7 @@
 
     #suite1-header {
         text-align: center;
-        margin-top: 2em;
+        margin-top: 4em;
     }
 
     #suite2 {
@@ -214,7 +218,7 @@
 
     #suite2-header {
         text-align: center;
-        margin-top: 2em;
+        margin-top: 4em;
     }
 
     #suite3 {
@@ -226,7 +230,7 @@
 
     #suite3-header {
         text-align: center;
-        margin-top: 2em;
+        margin-top: 4em;
     }
 
     /* Reception Page */
@@ -268,11 +272,6 @@
         text-align: center;
     }
 
-    footer {
-        background-color: #1FCFDE;
-        text-align: center;
-    }
-
     /* Resources Page */
     #resources-header h1,
     p {
@@ -283,4 +282,14 @@
         font-size: 1em;
     }
 
+    /* Footer */
+    footer {
+        background-color: #1FCFDE;
+        text-align: center;
+    }
+
+    footer p {
+        padding: 5px;
+        padding-bottom: 5px;
+    }
 }
