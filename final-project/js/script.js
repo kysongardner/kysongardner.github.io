@@ -2,7 +2,7 @@ function editMenu() {
     document.getElementsByClassName("navigation-bar")[0].classList.toggle("shrinkMenu")
 }
 
-fetch("/temple-data.json")
+fetch("/final-project/temple-data.json")
     .then(temples => temples.json())
     .then(jsonObject => {
         temples = jsonObject["temples"]
