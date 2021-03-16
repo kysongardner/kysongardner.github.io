@@ -89,25 +89,21 @@ h1 {
   color: red;
 }
 
-div.form {
+@media only screen and (max-width: 500px) {
+  #login-fieldset {
+    width: 50px;
+    background-color: blue;
+  }
+}
+
+.form > {
   display: block;
   text-align: center;
 }
 
-.form {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  padding: 2em;
-  width: 40em;
-}
-
 fieldset {
-  display: block;
+  width: 5em;
   margin: 0 auto;
-  max-width: 800px;
-  padding: 3em;
 }
 
 button {
