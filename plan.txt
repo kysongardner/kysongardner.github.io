@@ -1,3 +1,0 @@
-TO DO:
-    Dynamic header/footer
-    

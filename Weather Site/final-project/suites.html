@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suites</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="header-image" src="images/temple-lights.jpg" alt="Christus and Christmas lights">
+        <h1 id="header-title"><strong>Temple Inn & Suites</strong></h1>
+    </header>
+    <nav>
+        <ul class="navigation-bar">
+            <li> <a href="#" onclick="editMenu()">Menu</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="temple.html">Temple</a></li>
+            <li> <a href="reservation.html">Reservation</a></li>
+            <li> <a href="services.html" class="active">Services</a></li>
+            <li> <a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="suites">Suites:</h1>
+        <div id="suites-container">
+            <h3 id="suite1-header">Suite 1</h3>
+            <img id="suite1" src="images/room1.jpg" alt="suite room">
+
+            <h3 id="suite2-header">Suite 2</h3>
+            <img id="suite2" src="images/room2.jpg" alt="suite room">
+
+            <h3 id="suite3-header">Suite 3</h3>
+            <img id="suite3" src="images/room3.jpg" alt="suite room">
+        </div>
+
+        <div id="contact-us-suites">
+            <h3>Contact Us:</h3>
+            <form>
+                <label for="suite-name">Name:</label><br>
+                <input type="text" id="suite-name"> <br>
+                <label for="suite-email">Email:</label><br>
+                <input type="text" id="suite-email"><br>
+                <label for="suite-message">Message:</label><br>
+                <textarea id="suite-message" rows="5" cols="30"></textarea>
+                <input type="button" value="Submit" onclick="alert('Your message has been submitted!')">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; | Temple Inn & Suites | 2020 | Kyson Gardner | BYU-Idaho |<a id="resources-link" href="resources.html"> Resources</a></p>
+    </footer>
+</body>
+
+</html>

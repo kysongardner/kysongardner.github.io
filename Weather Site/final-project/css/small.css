@@ -1,0 +1,296 @@
+@media only screen and (min-width: 425px) {
+    body {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightcyan;
+        font-family: 'Happy Monkey';
+    }
+
+    header {
+        padding-top: 1em;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0.2em;
+    }
+
+    .header-image {
+        grid-column: 1/2;
+        max-width: 10em;
+        justify-content: center;
+        padding-left: 1em;
+    }
+
+    #header-title {
+        grid-column: 2/3;
+        justify-content: center;
+        vertical-align: middle;
+        font-size: 2em;
+        padding-left: 1em;
+    }
+
+    .navigation-bar li:first-child {
+        display: block;
+        background-color: #1FCFDE;
+    }
+
+    .navigation-bar li {
+        display: none;
+        text-align: center;
+        background-color: #1FCFDE;
+    }
+
+    .shrinkMenu li {
+        display: block;
+        text-align: center;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #2E1FDE;
+        font-size: 1.7em;
+    }
+
+    nav a:hover {
+        background-color: #CFDE1F;
+        color: #DE1FCF;
+    }
+
+    a:hover {
+        background-color: none;
+    }
+
+    a:visited {
+        color: #2E1FDE;
+    }
+
+    .active {
+        color: #2E1FDE;
+        background-color: #CFDE1F;
+    }
+
+    #header-one {
+        text-align: center;
+    }
+
+    #temple-activities {
+        text-align: center;
+    }
+
+    #activity-one {
+        padding-bottom: 2em;
+    }
+
+    #activity-two {
+        padding-bottom: 2em;
+    }
+
+    #activity-three {
+        padding-bottom: 4em;
+    }
+
+    #activity-three img {
+        width: 400px;
+    }
+
+    div p {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #call-to-action {
+        background-color: blue;
+        text-align: center;
+        font-size: 1.2em;
+        color: white;
+        margin-top: -3em;
+    }
+
+    #index-email {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    #payson-temple-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #payson-temple-container img {
+        max-width: 25em;
+        grid-column: 1/-1;
+    }
+
+    #payson-temple-summary {
+        text-align: center;
+    }
+
+    /* Temples page */
+    #temple-main {
+        display: block;
+    }
+
+    .temple-container {
+        display: block;
+    }
+
+    .temple-container img {
+        max-width: 25em;
+        padding-top: 3em;
+    }
+
+    .temple-details-header {
+        text-align: center;
+    }
+
+    /* Reservation Page */
+    #reservation-form {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    label,
+    input,
+    select {
+        margin: 5px;
+    }
+
+    /* Services Page */
+    .pictures-for-services-page {
+        max-width: 20em;
+        margin-left: 2em;
+    }
+
+    .potential-bookings {
+        margin-top: 3em;
+        text-align: center;
+    }
+
+    #reception-picture {
+        max-width: 15em;
+    }
+
+    #suite-picture {
+        max-width: 15em;
+    }
+
+    .specialized-amenities-items {
+        text-align: center;
+        margin-right: 2em;
+    }
+
+    #specialized-services {
+        text-align: center;
+    }
+
+    #amenities {
+        text-align: center;
+    }
+
+    /* Suites Page */
+
+    #suites {
+        text-align: center;
+    }
+
+    #suites-container {
+        display: block;
+    }
+
+    #suite1 {
+        max-width: 20em;
+        margin-left: 2em;
+    }
+
+    #suite1-header {
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    #suite2 {
+        max-width: 20em;
+        margin-left: 2em;
+    }
+
+    #suite2-header {
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    #suite3 {
+        max-width: 20em;
+        margin-left: 2em;
+        margin-bottom: 4em;
+    }
+
+    #suite3-header {
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    /* Reception Page */
+    #reception-page-container {
+        display: block;
+    }
+
+    #wedding-header {
+        text-align: center;
+    }
+
+    .wedding-list {
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.2em;
+    }
+
+    #food-header {
+        text-align: center;
+    }
+
+    .food-list {
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.2em;
+    }
+
+    #wedding-header {
+        text-align: center;
+    }
+
+    #reception-header {
+        text-align: center;
+    }
+
+    /* Contact Us Page */
+    #contact-us {
+        display: block;
+        text-align: center;
+    }
+
+    /* Resources Page */
+    #resources-header h1,
+    p {
+        text-align: center;
+    }
+
+    #resources-link {
+        font-size: 1em;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #1FCFDE;
+        text-align: center;
+    }
+
+    footer p {
+        padding: 5px;
+        padding-bottom: 5px;
+    }
+}

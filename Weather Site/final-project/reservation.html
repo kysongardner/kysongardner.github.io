@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="header-image" src="images/temple-lights.jpg" alt="Christus and Christmas lights">
+        <h1 id="header-title"><strong>Temple Inn & Suites</strong></h1>
+    </header>
+    <nav>
+        <ul class="navigation-bar">
+            <li> <a href="#" onclick="editMenu()">Menu</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="temple.html">Temple</a></li>
+            <li> <a href="reservation.html" class="active">Reservation</a></li>
+            <li> <a href="services.html">Services</a></li>
+            <li> <a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="reservation-form">
+            <form>
+                <h2>Book A Reservation Today!!</h2>
+                <label for="location">Location:</label><br>
+                <select id="location" name="location">
+                    <option value="kansas-city">Kansas City, KS</option>
+                    <option value="payson">Payson, UT</option>
+                    <option value="salt-lake">Salt Lake City, UT</option>
+                    <option value="phoenix">Phoenix, Arizona</option>
+                </select>
+                <br>
+                <label>Date:</label><br>
+                <input type="date" name="date"><br>
+
+                <label>Number of Rooms:</label>
+                <select id="number-of-rooms" name="number-of-rooms">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br>
+                <label>Type of Room:</label>
+                <select id="type-of-room" name="type-of-room">
+                    <option value="Suite1">Suite 1</option>
+                    <option value="Suite2">Suite 2</option>
+                    <option value="Suite3">Suite 3</option>
+                </select>
+                <br>
+                <label>Full Name:</label><br>
+                <input type="text" name="full-name"><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email"><br>
+
+                <label>Phone:</label><br>
+                <input type="number" name="phone"><br>
+
+                <label>Home State or Country:</label><br>
+                <input type="text" name="home"><br>
+
+                <label>Special Accomodations/Comments:</label><br>
+                <textarea id="comments" rows="10" cols="50"></textarea><br>
+
+                <input type="button" value="Book Suite!" onclick="alert('Booking Completed!')" name="submit-booking">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; | Temple Inn & Suites | 2020 | Kyson Gardner | BYU-Idaho |<a id="resources-link" href="resources.html"> Resources</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+{
+"temples" : [
+    {
+    "address": "7001 Searcy Creek Pkwy Kansas City MO 64119-5336",
+    "telephone": "(816)-413-1430",
+    "email": "N/A",
+    "services": "Clothing rental available | No cafeteria available | No patron housing available | No distribution center nearby",
+    "history": "4 October 2008 - Announced | 8 May 2010 - Groundbreaking | 6 May 2012 - Dedicated",
+    "name": "Kansas City, MO",
+    "phase": "2",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "6AM - 9PM Tuesday - Saturday",
+    "iniatories": "6AM - 10PM Tuesday - Saturday",
+    "endowments": "Every hour on the hour 6 - 9PM",
+    "sealings": "8AM - 10PM Tuesday - Saturday (Please make an appointment)"
+    },
+    {
+    "address": "1494 S 930 W Payson UT 84651",
+    "telephone": "(801)-754-4949",
+    "email": "N/A",
+    "services": "No clothing rental available | No cafeteria available | No patron housing available | Distribution center nearby",
+    "history": "25 January 2010 - Announced | 8 October 2011 - Groundbreaking | 7 June 2015 - Dedicated",
+    "name": "Payson, UT",
+    "phase": "2",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "5AM - 10PM Tuesday - Saturday",
+    "iniatories": "6AM - 9PM Tuesday - Saturday",
+    "endowments": "6AM - 9PM Every 30 Minutes",
+    "sealings": "8AM - 10PM Tuesday - Saturday (Please make an appointment)"
+    },
+    {
+    "address": "50 W North Temple St Salt Lake City UT 84150-9709",
+    "telephone": "N/A",
+    "email": "N/A",
+    "services": "N/A",
+    "history": "28 July 1847 - Announced | 14 February 1853 - Groundbreaking | 6 April 1893 - Dedicated",
+    "name": "Salt Lake City, UT",
+    "phase": "Currently being restored",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "5AM - 10PM Tuesday - Saturday",
+    "iniatories": "5AM - 10PM Tuesday - Saturday",
+    "endowments": "5AM - 10PM Every 20 Minutes",
+    "sealings": "6AM - 10PM Tuesday - Saturday (Please make an appointment)"
+    },
+    {
+    "address": "5220 W Pinnacle Peak Rd Phoenix AZ 85310",
+    "telephone": "(623)-474-9500",
+    "email": "N/A",
+    "services": "No clothing rental available | No cafeteria available | No patron housing available | No distribution center nearby",
+    "history": "9 May 2008 - Announced | 4 June 2011 - Groundbreaking | 16 November 2014 - Dedicated",
+    "name": "Phoenix, AZ",
+    "phase": "2",
+    "open": "Unknown open date... Schedule when reopened:",
+    "baptisms": "7AM - 9PM Tuesday - Saturday",
+    "iniatories": "6AM - 9PM Tuesday - Saturday",
+    "endowments": "6AM - 9PM Every 20 Minutes",
+    "sealings": "8AM - 9PM Tuesday - Saturday (Please make an appointment)"
+    }
+]}

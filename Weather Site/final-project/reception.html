@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="header-image" src="images/temple-lights.jpg" alt="Christus and Christmas lights">
+        <h1 id="header-title"><strong>Temple Inn & Suites</strong></h1>
+    </header>
+    <nav>
+        <ul class="navigation-bar">
+            <li> <a href="#" onclick="editMenu()">Menu</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="temple.html">Temple</a></li>
+            <li> <a href="reservation.html">Reservation</a></li>
+            <li> <a href="services.html" class="active">Services</a></li>
+            <li> <a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="reception-header">Accomodations:</h1>
+        <div id="reception-page-container">
+            <h3 id="wedding-header">Wedding:</h3>
+            <ul id="wedding-container">
+                <li class="wedding-list">200 Chairs for guests</li>
+                <li class="wedding-list">20 tables for guests</li>
+                <li class="wedding-list">Full sound/music setup</li>
+                <li class="wedding-list">Fresh clean table clothes</li>
+                <li class="wedding-list">Beautiful archway for pictures</li>
+            </ul>
+            <h3 id="food-header">Food:</h3>
+            <ul id="food-container">
+                <li class="food-list">Appetizer - Chips & Salsa or Nacho Cheese</li>
+                <li class="food-list">Entree - Hamburgers with cheese, lettuce, tomato</li>
+                <li class="food-list">Entree - Chicken and cheese enchiladas</li>
+                <li class="food-list">Dessert - Cheesecake (plain, strawberry, chocolate)</li>
+                <li class="food-list">Dessert - Cupcakes with white pink or brown frosting</li>
+            </ul>
+        </div>
+        <div id="contact-us-reception">
+            <h3>Contact Us:</h3>
+            <form>
+                <label for="reception-name">Name:</label><br>
+                <input type="text" id="reception-name"> <br>
+                <label for="reception-email">Email:</label><br>
+                <input type="text" id="reception-email"><br>
+                <label for="reception-message">Message:</label><br>
+                <textarea id="reception-message" rows="5" cols="30"></textarea>
+                <input type="button" value="Submit" onclick="alert('Your message has been submitted!')">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; | Temple Inn & Suites | 2020 | Kyson Gardner | BYU-Idaho |<a id="resources-link" href="resources.html"> Resources</a></p>
+    </footer>
+</body>
+
+</html>
