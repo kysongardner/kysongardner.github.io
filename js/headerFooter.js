@@ -1,6 +1,7 @@
 // NAV MENU
 
 getHeaderContents();
+addFooter();
 
 var nav = false;
 
@@ -54,4 +55,8 @@ function getHeaderContents() {
   document.querySelector(".button").addEventListener("click", function () {
     nav ? closeNav() : openNav();
   });
+}
+function addFooter(){
+  const footerText = `<footer>Copyright &copy; 2021 Trivia Game Team</footer>`
+  document.getElementsByTagName("main").appendChild(addFooter)
 }
